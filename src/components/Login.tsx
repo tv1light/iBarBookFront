@@ -11,10 +11,10 @@ const Login: React.FC = () => {
 
 
     const handleLogin = async () => {
-            if (!username || !password) {
-                setError('Please enter both username and password.');
-                return;
-            }
+            // if (!username || !password) {
+            //     setError('Please enter both username and password.');
+            //     return;
+            // }
             const credentials = { username, password };
             await axios.post('http://localhost:8080/auth/login', credentials)
                 .then(response => {console.log('Login successful:', response);
@@ -22,7 +22,7 @@ const Login: React.FC = () => {
             })
                 .catch (error => {
             console.error('Login failed:', error.response ? error.response.data : error.message);
-        setError('Invalid username or password.');
+            // setError('Invalid username or password.');
         })
 
 

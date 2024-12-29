@@ -1,7 +1,7 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import toolsData from '../data/toolsData';
-import './ToolDetail.css';
+import './styles/ToolDetail.css';
 
 const ToolDetail: React.FC = () => {
     const { id } = useParams<{ id: string }>();

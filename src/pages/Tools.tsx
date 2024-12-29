@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import toolsData from '../data/toolsData';
-import './Tools.css';
+import './styles/Tools.css';
 
 const Tools: React.FC = () => {
     return (

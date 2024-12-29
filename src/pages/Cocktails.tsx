@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { getCocktails } from '../services/cocktailService';
-import './Cocktails.css';
+import './styles/Cocktails.css';
 
 interface Cocktail {
     id: number;

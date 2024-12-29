@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import ingredientsData from '../data/ingredientsData';
-import './Ingredients.css';
+import './styles/Ingredients.css';
 
 const Ingredients: React.FC = () => {
     return (

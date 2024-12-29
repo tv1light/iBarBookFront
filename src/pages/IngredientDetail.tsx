@@ -2,7 +2,7 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import ingredientsData from '../data/ingredientsData';
-import './IngredientDetail.css';
+import './styles/IngredientDetail.css';
 
 const IngredientDetail: React.FC = () => {
     const { id } = useParams<{ id: string }>();
